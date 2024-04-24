@@ -8,7 +8,7 @@
 #include "App_focloop.h"
 #include "tim.h"
 
-float voltage_limit=18;
+float voltage_limit=18;//
 float voltage_power_supply=0;
 float shaft_angle=0,open_loop_timestamp=0;
 float zero_electric_angle=0,Ualpha,Ubeta=0,Ua=0,Ub=0,Uc=0,dc_a=0,dc_b=0,dc_c=0;
